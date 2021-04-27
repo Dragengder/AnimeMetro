@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+.conteiner{
+    width:1325px;
+    margin:auto;
+}
+header{
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    position: fixed;
+    left:0;
+    right:0;
+    margin:auto;
+    z-index:9;   
+}
+.scroll-add{
+    background-color: rgba(0,0,0,0.9);
+}
+.logo{
+    
+    float:left;
+}
+.menu{   
+float:right;
+    padding-right: 400px;
+}
+.info{
+    float:right;
+    text-align: right; 
+    
+}
+.logo{
+    padding-left:80px;
+    
+}
+.logo img{
+    display:block;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left:24px;
+    margin-top: 26px;
+}
+.menu ul li a{
+    color:#fff;
+    font-size:18px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.scroll-add .menu ul li a{
+    color:red;
+}
+
+
+.info h3 a{
+    color:#fff;
+    font-size:43px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.info p a{
+    color:#fff;
+    font-size:18px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    border-image-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    padding:400px 0 440px;
+    position: relative;
+    
+}
+.banner h2{
+      color:#fff;
+    font-size:60px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+}
+.banner ul{
+    width:1320px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+
+.what-offer{
+     text-align: center;
+}
+.what-offer h2{
+    color:#303131 ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align:center;
+    position:relative;
+    padding-bottom:60px;
+    
+}
+
+
+.what-offer h2:before {
+    content:"";
+    width:250px;
+    height:2px;
+    background-color: #e53528;
+    position:absolute;
+    top:18px;
+   left:15%;
+    
+}
+.what-offer h2:after {
+    content:"";
+    width:250px;
+    height:2px;
+    background-color: #e53528;
+    position:absolute;
+    top:18px;
+    right:15%;
+    
+}
+
+.image-cont{
+    display:flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.left-block{
+    width:33.33%;
+}
+.middle_block{
+    width:33.33%;
+    }
+.right-block{
+   width:33.33%;
+}
+.single-cont img{
+    display:block;  
+}
+.single-cont{
+    width:620px;
+    position:relative;
+    overflow: hidden;
+    
+}
+
+.cont{
+    background-color: rgba(0,0,0,.7);
+    padding:25px;
+    position:absolute;
+    bottom:-140px;
+    left:0;
+    right:0;
+    transition:all ease-in-out 0.4s;
+    
+}
+.cont h5{
+    color:#fff ;
+    font-size:28px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    padding-bottom:20px;
+   
+}
+.cont p{
+    color:#fff ;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    text-align:left;
+    
+    padding:30px;
+}
+.cont a{
+    color:#fff ;
+    font-size:20px;
+     font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-weight:400;
+    text-decoration: none;
+    display: block; 
+    text-align: right;
+    
+}
+.right-block .single-cont{
+    float:right;
+}
+.single-cont:hover{
+    cursor:pointer;
+}
+.single-cont:hover .cont{
+   background-color: rgba(229,53,40,.7);
+    bottom:0;
+}
+
+.our-project h2{
+    color:#303131 ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+    position:relative;
+    padding-bottom:60px;
+    
+}
+
+
+.anime-list{
+background-color:#000000;
+padding-left:60px;
+padding-right:60px;
+    
+}
+.anime-list h2{
+    color:#fff ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align:center;
+    position:relative;
+    padding-bottom:30px;
+     padding-top:20px;
+}
+   
+.anime-list22{
+    text-align:center;
+    width:300px;
+    height:350px;
+}
+
+.anime-list h3{
+   color: white;
+    
+}
+.anime-list p{
+   color: white;
+    
+}
+
+.anime-list h4{
+   color: red;
+    text-transform:capitalize;
+}
+
+
+.anime-link{
+    
+    background-color:	#000070;
+}
+.anime-link h2{
+    color:white ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align:center;
+    position:relative;
+    padding-top:40px;
+} 
+
+.anime-link h3 {   
+text-align:left;
+    color: white;
+
+}
+.anime-link p {   
+text-align: left;
+     color: white;
+}
+.anime-link h4 {   
+text-align: left;
+    color: red;
+    text-transform:capitalize;
+}
+
+
+
+
+
+.anime-news h2{
+    color:black ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align:center;
+    position:relative;
+    padding-top:40px;
+}
+
+
+
+
+
+
+
+
+.articles h2{
+    color:black ;
+    font-size:36px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align:center;
+    position:relative;
+    padding-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed-cont a{
+    color:#e53528;
+    text-decoration: none;
+    display: block;
+
+}
+.logo .img-hid{
+    display:none;
+}
+.logo .img-hid,.logo .img-mob{
+    display:none;
+}
+.img-hid.img-visi{
+    display:block;
+}
